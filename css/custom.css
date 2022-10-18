@@ -87,7 +87,7 @@ timeline
     margin-top: 10px;
     position: relative;
     /* background-color: gray; */
-    width: 90%;
+    width: auto;
     left: 10%;
   }
   /* The circles on the timeline */
@@ -166,7 +166,7 @@ timeline
     .timeline .container {
       padding: 10px 10px 0px 40px;
       left: 5%;
-      width: 95%;
+      width: auto;
     }
     .timeline .container .date {
       font-size: small;
