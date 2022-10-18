@@ -20,11 +20,12 @@
 <meta name="MobileOptimized" content="320" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="stylesheet" href="https://swcpea.github.io/css/screen.css" />
-<link rel="stylesheet" href="https://swcpea.github.io/css/fonts.css" type="text/css" />
+
+<link href="https://swcpea.github.io/kinmen//css/screen.css" rel="stylesheet" />
+<link href="https://swcpea.github.io/kinmen//css/fonts.css" rel="stylesheet" />
 <link
   rel="stylesheet"
-  href="https://swcpea.github.io/fork-awesome/css/fork-awesome.min.css"
+  href="https://swcpea.github.io/kinmen/css/fork-awesome.min.css"
   type="text/css"
 />
 
@@ -58,19 +59,19 @@
 <link
   rel="apple-touch-icon"
   sizes="180x180"
-  href="https://swcpea.github.io/kinmen/images/apple-touch-icon.png"
+  href='https://swcpea.github.io/kinmen/images/apple-touch-icon.png'
 />
 <link
   rel="icon"
   type="image/png"
   sizes="32x32"
-  href="https://swcpea.github.io/kinmen/images/favicon-32x32.png"
+  href='https://swcpea.github.io/kinmen/images/favicon-32x32.png'
 />
 <link
   rel="icon"
   type="image/png"
   sizes="16x16"
-  href="https://swcpea.github.io/kinmen/images/favicon-16x16.png"
+  href='https://swcpea.github.io/kinmen/images/favicon-16x16.png'
 />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -144,31 +145,6 @@
 
 
 
-<script>
-  function non0plural(number, name) {
-    if (number == 0) {
-    return ""
-    }
-    if (number > 1) {
-    return number + " " + name + "s"
-    }
-    return number + " " +name
-  }
-
-  el = document.querySelector("#moment");
-  function refresh() {
-    start = dayjs("2018-01-01")
-    now = dayjs()
-
-    total_months = now.diff(start, "M", true)
-    months = total_months % 12
-    years = Math.floor((total_months) / 12)
-    el.innerHTML = non0plural(years,"year")+" "+non0plural(months.toFixed(8),"month")
-  }
-  window.setInterval(refresh, 100);
-</script> 
-
-
     
 
 
@@ -235,7 +211,7 @@
 
 </div>
 <p>金門縣山坡地界址圖</p>
-<p><img src="../images/mountain.jpg" alt="金門縣山坡地範圍"></p>
+<p><img src="images/mountain.jpg" alt="金門縣山坡地範圍"></p>
 
                 </section>
             </article>
